@@ -24,7 +24,9 @@ selenium-framework/
 │   ├── search.py             # Custom element with specific logic
 |   └── ...                   # other elements
 ├── pages/
-│   └── google_page.py        # Example page object
+│   ├── base_page.py          # Base functions for all pages
+|   ├── mobile_browse_page.py # Browse page with elements of this page
+|   └── ...                   # other pages
 ├── tests/
 │   └── test_select_starcraft_streamer.py # Example test cases
 ├── utils/

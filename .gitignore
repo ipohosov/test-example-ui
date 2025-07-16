@@ -1,0 +1,16 @@
+# Allure
+allure-results/
+allure-report/
+allure_screenshots/
+
+# Selenium
+geckodriver.log
+chromedriver.log
+*.png
+
+# Environment variables
+.env
+.env.*
+
+# Pycache
+__pycache__/
